@@ -46,7 +46,7 @@ class hp extends StatelessWidget {
       backgroundColor: Color.fromARGB(255, 238, 215, 215),
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 246, 180, 180),
-        title: const Center(child: Text('walls')),
+        title: const Center(child: Text(' your walls')),
         actions: [IconButton(onPressed: out, icon: const Icon(Icons.logout))],
       ),
       drawer: draw(
